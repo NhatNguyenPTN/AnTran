@@ -1,0 +1,21 @@
+footer {
+    border-top: 1px solid #000;
+    margin-top: 3rem;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
+}
+
+footer p {
+    font-weight: 500;
+    max-width: 600px;
+    margin-right: .5rem;
+}
+
+@media(max-width: 790px) {
+    footer p {
+        font-size: .8rem;
+    }
+}
